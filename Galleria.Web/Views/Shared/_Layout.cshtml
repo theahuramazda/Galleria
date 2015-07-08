@@ -1,20 +1,22 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="GalleriaApp">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Galleria</title>
-    @Styles.Render("~/styles/")
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="/" />
+	<title>Galleria</title>
+	@Styles.Render("~/styles/")
 </head>
 <body>
-    <div class="container body-content">
-        @RenderBody()
-        <footer>
-            <p>Galleria &copy; 2015 Ahura Mazda</p>
-        </footer>
-    </div>
+	<div class="container body-content">
+		@RenderBody()
+		<footer>
+			<p>Galleria &copy; 2015 Ahura Mazda</p>
+		</footer>
+	</div>
 
-    @Scripts.Render("~/bundles/angular")
-    @RenderSection("scripts", required: false)
+	@Scripts.Render("~/bundles/angular")
+	@Scripts.Render("~/bundles/app/default")
+	@RenderSection("scripts", required: false)
 </body>
 </html>

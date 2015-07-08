@@ -9,7 +9,17 @@ namespace Galleria.Web
 		public static void RegisterBundles(BundleCollection bundles)
 		{
 			/* JavaScript bundles */
-			bundles.Add(new ScriptBundle("~/scripts/angular").Include("~/Scripts/angular*"));
+			bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+				"~/Scripts/angular.js",
+				"~/Scripts/angular-route.js"));
+
+			// The Angular app for normal visitors
+			bundles.Add(new ScriptBundle("~/bundles/app/default")
+				.Include(
+					"~/angular-app/galleria.app.default.js",
+					"~/angular-app/controllers/*.js"));
+
+			//TODO: create bundle for Admin
 
 
 			/* CSS/Style bundles */
