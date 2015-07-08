@@ -116,6 +116,7 @@
     <Content Include="angular-app\directives\galleria.directive.menu.html" />
     <Content Include="angular-app\directives\galleria.directive.menu.js" />
     <Content Include="angular-app\views\home.html" />
+    <Content Include="styles\normalize.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.js" />
