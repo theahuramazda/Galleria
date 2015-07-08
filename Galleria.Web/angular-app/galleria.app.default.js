@@ -10,6 +10,9 @@
 				templateUrl: "/angular-app/views/home.html",
 				controller: "HomeController",
 				controllerAs: "homeViewModel"
+			})
+			.otherwise({
+				redirectTo: "/"
 			});
 
 		$locationProvider.html5Mode(true);
