@@ -1,4 +1,4 @@
-﻿/// <reference path="../scripts/angular.js" />
+﻿/// <reference path="../../scripts/angular.js" />
 (function () {
 	angular.module("GalleriaApp")
 		.controller("HomeController", HomeController);
