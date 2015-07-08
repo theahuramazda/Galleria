@@ -1,11 +1,60 @@
-﻿$font-stack: Helvetica, Arial, sans-serif;
+﻿$font-default: Helvetica, Arial, sans-serif;
+$font-standout: Georgia, serif;
+$font-size: 10pt;
+$page-margin: 10px;
+
+$color-background: #222;
+$color-foreground: invert($color-background);
 
 html{
-	margin: 0;
+	margin: $page-margin;
 	padding: 0;
 }
 
 body {
-	font-family: $font-stack;
-	margin: 10px;
+	background-color: $color-background;
+	color: $color-foreground;
+	font-size: $font-size;
+	font-family: $font-default;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li
+{
+	list-style: none;
+}
+
+//TODO: componentize
+footer{
+	position: absolute;
+	bottom: (0 + $page-margin);
+	right: (0 + $page-margin);
+
+	font-size: ($font-size - 2pt);
+}
+
+/* Specific Components */
+#mainMenu
+{
+	font-family: $font-standout;
+	font-size: ($font-size + 2pt);
+}
+
+#mainMenu:after{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+#mainMenu li{
+	float: left;
+	margin-right: 10px;
+}
+
+#mainMenu li:last-child{
+	margin-right: 0;
 }

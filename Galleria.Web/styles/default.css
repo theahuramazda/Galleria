@@ -1,9 +1,41 @@
 ﻿html {
-  margin: 0;
+  margin: 10px;
   padding: 0; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 10px; }
+  background-color: #222;
+  color: #dddddd;
+  font-size: 10pt;
+  font-family: Helvetica, Arial, sans-serif; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 8pt; }
+
+/* Specific Components */
+#mainMenu {
+  font-family: Georgia, serif;
+  font-size: 12pt; }
+
+#mainMenu:after {
+  clear: both;
+  display: block;
+  content: ""; }
+
+#mainMenu li {
+  float: left;
+  margin-right: 10px; }
+
+#mainMenu li:last-child {
+  margin-right: 0; }
 
 /*# sourceMappingURL=default.css.map */

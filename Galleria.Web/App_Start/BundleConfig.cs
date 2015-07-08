@@ -24,7 +24,9 @@ namespace Galleria.Web
 
 
 			/* CSS/Style bundles */
-			bundles.Add(new StyleBundle("~/styles/").Include("~/styles/*.css"));
+			bundles.Add(new StyleBundle("~/styles/").Include(
+				"~/styles/normalize.css",
+				"~/styles/default.css"));
 		}
 	}
 }
