@@ -17,6 +17,7 @@ namespace Galleria.Web
 			bundles.Add(new ScriptBundle("~/bundles/app/default")
 				.Include(
 					"~/angular-app/galleria.app.default.js",
+					"~/angular-app/services/*.js",
 					"~/angular-app/controllers/*.js",
 					"~/angular-app/directives/*.js"));
 
