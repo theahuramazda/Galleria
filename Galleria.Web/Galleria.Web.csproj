@@ -115,6 +115,7 @@
   <ItemGroup>
     <Content Include="angular-app\directives\galleria.directive.menu.html" />
     <Content Include="angular-app\directives\galleria.directive.menu.js" />
+    <Content Include="angular-app\views\albums.html" />
     <Content Include="angular-app\views\contact.html" />
     <Content Include="angular-app\views\about.html" />
     <Content Include="angular-app\views\home.html" />
