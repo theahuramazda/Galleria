@@ -28,6 +28,18 @@ li
 	list-style: none;
 }
 
+a {
+	padding: 5px;
+	color: $color-background;
+	background-color: $color-foreground;
+	text-decoration: none;
+
+	&:hover{
+		color: $color-foreground;
+		background-color: $color-background;
+	}
+}
+
 //TODO: componentize
 footer {
 	position: absolute;
