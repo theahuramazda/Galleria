@@ -1,23 +1,13 @@
 ﻿/// <reference path="../../scripts/angular.js" />
-(function ()
-{
+(function () {
 	angular.module("GalleriaApp")
-		.controller("GalleriaMenuController", GalleriaMenuController)
-		.directive("galleriaMenu", GalleriaDirective);
+		.directive("galleriaMenu", GalleriaMenuDirective);
 
-	function GalleriaDirective()
+	function GalleriaMenuDirective()
 	{
 		return {
 			restrict: "E",
-			templateUrl: "/angular-app/directives/galleria.directive.menu.html",
-			controller: "GalleriaMenuController",
-			controllerAs: "GalleriaMenuViewModel"
+			templateUrl: "/angular-app/directives/galleria.directive.menu.html"
 		};
-	}
-
-	GalleriaMenuController.$inject = ["$scope"];
-	function GalleriaMenuController()
-	{
-
 	}
 })()
