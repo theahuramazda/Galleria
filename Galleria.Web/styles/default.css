@@ -25,17 +25,14 @@ footer {
 #mainMenu {
   font-family: Georgia, serif;
   font-size: 12pt; }
-
-#mainMenu:after {
-  clear: both;
-  display: block;
-  content: ""; }
-
-#mainMenu li {
-  float: left;
-  margin-right: 10px; }
-
-#mainMenu li:last-child {
-  margin-right: 0; }
+  #mainMenu:after {
+    clear: both;
+    display: block;
+    content: ""; }
+  #mainMenu li {
+    float: left;
+    margin-right: 10px; }
+  #mainMenu li:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=default.css.map */

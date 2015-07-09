@@ -29,7 +29,7 @@ li
 }
 
 //TODO: componentize
-footer{
+footer {
 	position: absolute;
 	bottom: (0 + $page-margin);
 	right: (0 + $page-margin);
@@ -38,23 +38,22 @@ footer{
 }
 
 /* Specific Components */
-#mainMenu
-{
+#mainMenu {
 	font-family: $font-standout;
 	font-size: ($font-size + 2pt);
-}
 
-#mainMenu:after{
-	clear: both;
-	display: block;
-	content: "";
-}
+	&:after{
+		clear: both;
+		display: block;
+		content: "";
+	}
 
-#mainMenu li{
-	float: left;
-	margin-right: 10px;
-}
+	li {
+		float: left;
+		margin-right: 10px;
+	}
 
-#mainMenu li:last-child{
-	margin-right: 0;
+	li:last-child {
+		margin-right: 0;
+	}	
 }
