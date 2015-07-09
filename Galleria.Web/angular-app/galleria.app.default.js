@@ -11,10 +11,13 @@
 				controller: "HomeController",
 				controllerAs: "homeViewModel"
 			})
-			.when("/about", {
+			.when("/albums/", {
+				templateUrl: "/angular-app/views/albums.html"
+			})
+			.when("/about/", {
 				templateUrl: "/angular-app/views/about.html"
 			})
-			.when("/contact", {
+			.when("/contact/", {
 				templateUrl: "/angular-app/views/contact.html"
 			})
 			.otherwise({
