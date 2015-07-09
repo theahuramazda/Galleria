@@ -11,6 +11,12 @@
 				controller: "HomeController",
 				controllerAs: "homeViewModel"
 			})
+			.when("/about", {
+				templateUrl: "/angular-app/views/about.html"
+			})
+			.when("/contact", {
+				templateUrl: "/angular-app/views/contact.html"
+			})
 			.otherwise({
 				redirectTo: "/"
 			});

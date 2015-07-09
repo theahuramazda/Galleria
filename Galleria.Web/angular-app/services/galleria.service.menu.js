@@ -9,16 +9,16 @@
 			//TODO: replace with production code
 			var tempMenus = [
 				{
-					name: "Album 1",
-					url: "/album/album 1/"
+					name: "Home",
+					url: "/"
 				},
 				{
-					name: "Album 2",
-					url: "/album/album 2/"
+					name: "About",
+					url: "/about/"
 				},
 				{
-					name: "Album 3",
-					url: "/album/album 3/"
+					name: "Contact",
+					url: "/contact/"
 				}];
 
 			return tempMenus;
