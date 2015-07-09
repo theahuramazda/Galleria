@@ -13,16 +13,13 @@ namespace Galleria.Web
 		{
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+			// Passes all routes to the HomeController.
+			// AngularJS will handle the routing on the client side.
+			//TODO: Add definition for Admin when that code is required
 			routes.MapRoute(
 				name: "Root",
-				url: "",
+				url: "{*.}",
 				defaults: new { controller = "Home", action = "Index"});
-
-			routes.MapRoute(
-				name: "Default",
-				url: "{controller}/{action}/{id}",
-				defaults: new { action = "Index", id = UrlParameter.Optional }
-			);
 		}
 	}
 }
