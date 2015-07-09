@@ -113,8 +113,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="angular-app\controllers\galleria.controller.albumlist.js" />
+    <Content Include="angular-app\directives\galleria.directive.albumlist.html" />
+    <Content Include="angular-app\directives\galleria.directive.albumlist.js" />
     <Content Include="angular-app\directives\galleria.directive.menulist.html" />
     <Content Include="angular-app\directives\galleria.directive.menulist.js" />
+    <Content Include="angular-app\services\galleria.service.album.js" />
     <Content Include="angular-app\views\albums.html" />
     <Content Include="angular-app\views\contact.html" />
     <Content Include="angular-app\views\about.html" />

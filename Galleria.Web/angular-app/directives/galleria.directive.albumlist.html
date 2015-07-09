@@ -1,0 +1,3 @@
+﻿<ul id="albumList" ng-controller="GalleriaAlbumListController as galleriaAlbumList">
+	<li ng-repeat="album in galleriaAlbumList.albums" ng-class="{'active': album.locationIsCurrent}"><a ng-href="/album{{ album.url }}">{{ album.name }}</a></li>
+</ul>

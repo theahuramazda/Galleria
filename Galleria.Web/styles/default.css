@@ -16,13 +16,7 @@ li {
   list-style: none; }
 
 a {
-  padding: 5px;
-  color: #222;
-  background-color: #dddddd;
   text-decoration: none; }
-  a:hover {
-    color: #dddddd;
-    background-color: #222; }
 
 footer {
   position: absolute;
@@ -41,9 +35,23 @@ footer {
   #mainMenu li {
     float: left;
     margin-right: 10px; }
+    #mainMenu li a {
+      padding: 5px;
+      color: #222;
+      background-color: #dddddd; }
+      #mainMenu li a:hover {
+        color: #dddddd;
+        background-color: #222; }
     #mainMenu li.active a {
       background-color: red; }
     #mainMenu li:last-child {
       margin-right: 0; }
+
+#albumList a {
+  font-size: 8pt;
+  color: #dddddd; }
+  #albumList a:hover {
+    color: #222;
+    background-color: #dddddd; }
 
 /*# sourceMappingURL=default.css.map */
