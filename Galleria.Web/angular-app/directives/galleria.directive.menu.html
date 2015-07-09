@@ -1,3 +1,3 @@
 ﻿<ul id="mainMenu" ng-controller="GalleriaMenuController as galleriaMenu">
-	<li ng-repeat="menu in galleriaMenu.Menus"><a ng-href="{{ menu.url }}">{{ menu.name }}</a></li>
+	<li ng-repeat="menu in galleriaMenu.menus" ng-class="{'active': menu.locationIsCurrent}"><a ng-href="{{ menu.url }}">{{ menu.name }}</a></li>
 </ul>

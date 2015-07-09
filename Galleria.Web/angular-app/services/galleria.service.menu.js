@@ -10,15 +10,23 @@
 			var tempMenus = [
 				{
 					name: "Home",
-					url: "/"
+					url: "/",
+					locationIsCurrent: false
+				},
+				{
+					name: "Albums",
+					url: "/albums/",
+					locationIsCurrent: false
 				},
 				{
 					name: "About",
-					url: "/about/"
+					url: "/about/",
+					locationIsCurrent: false
 				},
 				{
 					name: "Contact",
-					url: "/contact/"
+					url: "/contact/",
+					locationIsCurrent: false
 				}];
 
 			return tempMenus;
