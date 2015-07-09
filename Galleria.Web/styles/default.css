@@ -41,7 +41,9 @@ footer {
   #mainMenu li {
     float: left;
     margin-right: 10px; }
-  #mainMenu li:last-child {
-    margin-right: 0; }
+    #mainMenu li.active a {
+      background-color: red; }
+    #mainMenu li:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=default.css.map */
