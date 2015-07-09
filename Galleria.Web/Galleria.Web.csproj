@@ -123,7 +123,7 @@
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
-    <Content Include="angular-app\controllers\galleria.home.js" />
+    <Content Include="angular-app\controllers\galleria.controller.home.js" />
     <Content Include="styles\default.css">
       <DependentUpon>default.scss</DependentUpon>
     </Content>
@@ -157,6 +157,8 @@
       <DependentUpon>default.css</DependentUpon>
     </Content>
     <Content Include="angular-app\galleria.app.default.js" />
+    <Content Include="angular-app\controllers\galleria.controller.menu.js" />
+    <Content Include="angular-app\services\galleria.service.menu.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
